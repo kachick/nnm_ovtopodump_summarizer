@@ -1,0 +1,40 @@
+= nnm_ovtopodump_summarizer
+
+code :: https://github.com/kachick/nnm_ovtopodump_summarizer
+bugs :: https://github.com/kachick/nnm_ovtopodump_summarizer/issues
+
+== Description
+
+An utility for the NNM(NetworkNodeManager).
+"ovtopodump" to some CSV files.
+
+== Feutures
+
+
+* Now, supporting options
+  * "-rRISC"
+
+* Author is just a user of NNM, Of course "No Warranty" :)
+
+== Usage
+
+    > LANG=C ovtopodump -rRISC > ovtopodump_rRISC.out
+    > ruby nnm_ovtopodump_summarizer.rb ovtopodump_rRISC.out
+
+== Requirements
+
+* Ruby 1.9.3
+  
+  Focusing
+  
+  * 1.9.3-p194
+
+* striuct - 0.3.0
+
+== License
+
+GPL 3.0
+
+Copyright (c) 2011-2012 Kenichi Kamiya
+
+See the file COPYING for further details.

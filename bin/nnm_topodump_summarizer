@@ -1,0 +1,10 @@
+#!/usr/local/bin/ruby -w
+# Copyright (C) 2011-2012 Kenichi Kamiya
+
+require_relative '../lib/nnm_topodump_summarizer'
+
+unless ARGV.length >= 1
+  abort "usage: #{$PROGRAM_NAME} ovtopodump_rRISC.out [*ovtopodump_rRISC.out]"
+end
+
+NNM_OVTopodump_Summarizer.run ARGV
