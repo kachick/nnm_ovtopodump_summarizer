@@ -21,7 +21,7 @@ module NNM_OVTopodump_Summarizer
           f.puts($!.inspect, $!.message, $!.backtrace)
         end
       else
-        CSV.open "#{path}.summarize.csv", 'w', CSV_OPTIONS do |csv|
+        CSV.open "#{path}.summary.csv", 'w', CSV_OPTIONS do |csv|
           nodes.each do |node|
             node.interfaces.each do |interface|
               csv << [
