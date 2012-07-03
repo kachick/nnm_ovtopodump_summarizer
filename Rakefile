@@ -10,7 +10,6 @@ $hoe = Hoe.spec 'nnm_ovtopodump_summarizer' do
   require_ruby_version '>= 1.9.3'
   dependency 'striuct', '~> 0.3.0', :runtime
   dependency 'yard', '>= 0.8.2', :development
-  dependency 'declare', '~> 0.0.4', :development
 end
 
 require 'newgem/tasks'

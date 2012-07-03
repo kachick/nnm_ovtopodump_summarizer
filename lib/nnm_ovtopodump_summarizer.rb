@@ -7,6 +7,7 @@ module NNM_OVTopodump_Summarizer
 
   include NetworkNodeManager
 
+  VERSION = '0.0.1'.freeze
   CSV_HEADERS = %w[NodeID InterfaceID Flag Hostname MainIP IP Status j/Enable? j/Valid?]
   CSV_OPTIONS = {headers: CSV_HEADERS, write_headers: true}.freeze
 
