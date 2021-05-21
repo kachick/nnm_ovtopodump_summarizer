@@ -1,14 +1,15 @@
 = nnm_ovtopodump_summarizer
 
-code :: https://github.com/kachick/nnm_ovtopodump_summarizer
-bugs :: https://github.com/kachick/nnm_ovtopodump_summarizer/issues
+* <em><b>This repository is archived</b></em>
+* <em><b>No longer maintained</b></em>
+* <em><b>All versions have been yanked from https://rubygems.org/ for releasing valuable namespace for others</b></em>
 
 == Description
 
 An utility for the NNM(NetworkNodeManager).
 "ovtopodump" to some CSV files.
 
-== Feutures
+== Features
 
 
 * Now, supporting options
